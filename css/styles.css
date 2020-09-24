@@ -1,72 +1,133 @@
-body{
+body {
   background-color: aliceblue;
   margin: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+
 .bait0:after {
   content: 'Donde esta El Busto?';
 }
+
 .bait0:hover:after {
   content: 'I am a student of Web Developing, trying to make it my job one day';
 }
+
 .bait1:after {
   content: 'Professional Counter-Strike player';
 }
+
 .bait1:hover:after {
   content: 'Basically a Professional Counter-Strike player';
 }
+
 .bait2:after {
   content: 'Amateur Web Developer';
 }
+
 .bait2:hover:after {
   content: 'Professional Web Developer';
 }
-h1{
+
+.bait3:after {
+  content: 'BJJ';
+}
+
+.bait3:hover:after {
+  content: 'Brazilian Jiu-Jitsu';
+}
+
+h1 {
   margin: 50px auto 0;
   font-family: 'Pacifico', cursive;
   font-size: 72px;
   color: #66BFBF;
 }
-h2{
+
+h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.5rem;
   color: #66BFBF;
   margin: 10px auto 10px;
 }
-.profilepic{
-  border-radius:50%;
-  width:400px;
-  height:350px;
+
+.profilepic {
+  border-radius: 50%;
+  width: 400px;
+  height: 350px;
 }
-h3{
+
+.mojaSlika-bjj {
+  background-color: aliceblue;
+  border-radius: 50%;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}
+
+h3 {
   font-family: 'Oswald', sans-serif;
   color: #11999E;
-  }
-  a{
-    color: #11999E;
-  }
-p{
-  margin:0;
-  }
-.bot-cloud{
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.aard {
+  border-radius: 50%;
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+}
+
+.cs {
+  background-color: aliceblue;
+  border-radius: 50%;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 25px;
+}
+
+.bot-cloud {
   height: 10%;
   width: 15%;
   position: absolute;
-  left:10%;
-  bottom:30%;
-  }
-.top-cloud{
+  left: 10%;
+  bottom: 30%;
+}
+
+.top-cloud {
   height: 10%;
   width: 15%;
   position: absolute;
   right: 10%;
   bottom: 75%;
 }
-.mountain{
-    width: 50%;
+
+.mountain {
+  width: 50%;
 }
-.top-container{
+
+.top-container {
   position: relative;
   padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto 75px;
+  text-align: left;
+  line-height: 1.5;
 }
