@@ -4,15 +4,35 @@ body{
   text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
+.bait0:after {
+  content: 'Donde esta El Busto?';
+}
+.bait0:hover:after {
+  content: 'I am a student of Web Developing, trying to make it my job one day';
+}
+.bait1:after {
+  content: 'Proffesional Counter-Strike player';
+}
+.bait1:hover:after {
+  content: 'Basically a Proffesional Counter-Strike player';
+}
+.bait2:after {
+  content: 'Amateur Web Developer';
+}
+.bait2:hover:after {
+  content: 'Proffesional Web Developer';
+}
 h1{
-  margin: 0;
+  margin: 50px auto 0;
   font-family: 'Pacifico', cursive;
   font-size: 72px;
   color: #ffc7c7;
 }
 h2{
   font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
   color: #d9adad;
+  margin: 10px auto 10px;
 }
 h3{
   font-family: 'Oswald', sans-serif;
@@ -30,7 +50,7 @@ p{
   right: 350px;
   bottom: 425px;
 }
-.top{
+.top-container{
   position: relative;
   padding-top: 100px;
 }
